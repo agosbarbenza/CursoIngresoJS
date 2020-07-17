@@ -8,4 +8,3 @@ function sumar()
 	var num2 = parseInt(document.getElementById("txtIdNumeroDos").value);
 	alert("El resultado es "+ (num1+num2));
 }
-
