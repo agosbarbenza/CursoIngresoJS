@@ -9,3 +9,12 @@ function sumar()
 	var num2 = parseInt(document.getElementById("txtIdNumeroDos").value);
 	alert("La suma es "+ (num1+num2));
 }
+
+/*
+
+Más resumido...
+
+function sumar()
+{
+	alert("La suma es "+ ((parseInt(document.getElementById("txtIdNumeroUno").value)) + (parseInt(document.getElementById("txtIdNumeroDos").value))));
+}*/
