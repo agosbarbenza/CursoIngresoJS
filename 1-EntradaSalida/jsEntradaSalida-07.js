@@ -33,7 +33,7 @@ function dividir()
 {
 	var numero1 = parseInt(document.getElementById("txtIdNumeroUno").value);
 	var numero2 = parseInt(document.getElementById("txtIdNumeroDos").value);
-	var result = numero1/numero2;
+	var result = parseInt(numero1/numero2); //para que la división también de un numero entero.
 	alert("La división es "+result);
 }
 
