@@ -1,26 +1,19 @@
-function mostrar()
-{
-	//tomo el mes
-	var mesDelAño = document.getElementById("txtIdMes").value;
+function mostrar() {
+
+	let mesDelAño = document.getElementById("txtIdMes").value;
 	switch (mesDelAño) {
 		case "Julio":
 		case "Agosto":
 			alert("Abrigate que hace frio.");
 			break;
-		case "Enero":
-		case "Febrero":
-		case "Marzo":
-		case "Abril":
-		case "Mayo":
-		case "Junio":
-			alert("Falta para el invierno.");
-			break;
-		default:
+
+		case "Septiembre":
+		case "Octubre":
 			alert("Ya pasamos el frio, ahora calor!!!");
 			break;
+
+		default:
+			alert("Falta para el invierno.");
+			break;
 	}
-
-
-
-
-}//FIN DE LA FUNCIÓN
+}

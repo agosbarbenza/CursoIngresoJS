@@ -1,7 +1,7 @@
 function mostrar()
 {
 	//tomo el mes
-	var mesDelAño = document.getElementById("txtIdMes").value;
+	let mesDelAño = document.getElementById("txtIdMes").value;
 
 	switch (mesDelAño) {
 		case "Febrero":
@@ -18,4 +18,4 @@ function mostrar()
 		default:
 			alert("Este mes tiene 31 días");
 	}
-}//FIN DE LA FUNCIÓN
+}
