@@ -34,31 +34,31 @@ function CalcularPrecio() {
                 break;
             case 3:
                 if (marca == "ArgentinaLuz") {
-                    precioTotal = parseFloat((precioUnitario * 3) - ((precioUnitario * 3) * 0.15));
+                    precioTotal = parseFloat((precioUnitario * qLamp) - ((precioUnitario * qLamp) * 0.15));
                     precioDescuento.value = "$" + precioTotal;
                 } else if (marca == "FelipeLamparas") {
-                    precioTotal = parseFloat((precioUnitario * 3) - (((precioUnitario * 3) * 0.10)));
+                    precioTotal = parseFloat((precioUnitario * qLamp) - (((precioUnitario * qLamp) * 0.10)));
                     precioDescuento.value = "$" + precioTotal;
                 } else {
-                    precioTotal = parseFloat((precioUnitario * 3) - ((precioUnitario * 3) * 0.05));
+                    precioTotal = parseFloat((precioUnitario * qLamp) - ((precioUnitario * qLamp) * 0.05));
                     precioDescuento.value = "$" + precioTotal;
                 }
                 break;
             case 4:
                 if (marca == "ArgentinaLuz" || marca == "FelipeLamparas") {
-                    precioTotal = parseFloat((precioUnitario * 4) - (((precioUnitario * 4) * 0.25)));
+                    precioTotal = parseFloat((precioUnitario * qLamp) - (((precioUnitario * qLamp) * 0.25)));
                     precioDescuento.value = "$" + precioTotal;
                 } else {
-                    precioTotal = parseFloat((precioUnitario * 4) - (((precioUnitario * 4) * 0.20)));
+                    precioTotal = parseFloat((precioUnitario * qLamp) - (((precioUnitario * qLamp) * 0.20)));
                     precioDescuento.value = "$" + precioTotal;
                 }
                 break;
             case 5:
                 if (marca == "ArgentinaLuz") {
-                    precioTotal = parseFloat((precioUnitario * 5) - (((precioUnitario * 5) * 0.40)));
+                    precioTotal = parseFloat((precioUnitario * qLamp) - (((precioUnitario * qLamp) * 0.40)));
                     precioDescuento.value = "$" + precioTotal;
                 } else {
-                    precioTotal = parseFloat((precioUnitario * 5) - (((precioUnitario * 5) * 0.30)));
+                    precioTotal = parseFloat((precioUnitario * qLamp) - (((precioUnitario * qLamp) * 0.30)));
 
                     precioDescuento.value = "$" + precioTotal;
                 }
