@@ -5,7 +5,10 @@ function mostrar()
 	
 	if (horaDelDia<0 || horaDelDia>24){
 		alert("no existe esa hora");
-	}else{
+	}else if((horaDelDia>=0 && horaDelDia<=6)||(horaDelDia>=20 && horaDelDia<=24)){
+		alert("Es de noche");
+	}
+	else{
 	switch (horaDelDia) {
 		case 7:
 		case 8:
@@ -25,26 +28,10 @@ function mostrar()
 			alert("Es de tarde");
 			break;
 		default:
-			alert("Es de noche");
+			alert("Eso no es un formato de hora correcto")
 			break;
 			
 	}
+}	
+
 }
-	
-
-}//FIN DE LA FUNCIÓN
-
-/*switch (true) {
-		case (horaDelDia<0 || horaDelDia>24):
-			alert("no existe esa hora")
-		break;
-		case (horaDelDia>=12 && horaDelDia<=19):
-			alert("Es de tarde");
-		break;
-		case(horaDelDia>=7 && horaDelDia<=11):
-			alert("Es de mañana");
-		break;
-		default:
-			alert("Es de noche");
-		break;
-	}*/
