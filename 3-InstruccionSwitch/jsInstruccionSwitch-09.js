@@ -2,7 +2,7 @@ function mostrar()
 {
 	let estacionIngresada = document.getElementById("txtIdEstacion").value;
 	let destinoIngresado = document.getElementById("txtIdDestino").value;
-	let precioBase = parseInt(15000);
+	 precioBase = parseInt(15000);
 
 	switch (estacionIngresada) {
 		case "Invierno":

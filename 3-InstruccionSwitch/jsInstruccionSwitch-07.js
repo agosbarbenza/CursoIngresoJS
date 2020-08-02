@@ -3,10 +3,10 @@ function mostrar() {
 
 	switch (destinoIngresado) {
 		case "Bariloche":
-			alert(destinoIngresado + " se encuentra en el OESTE")
+			alert(destinoIngresado + " se encuentra en el OESTE");
 			break;
 		case "Ushuaia":
-			alert(destinoIngresado + " se encuentra en el SUR")
+			alert(destinoIngresado + " se encuentra en el SUR");
 			break;
 		case "Cataratas":
 			alert(destinoIngresado + " se encuentra en el NORTE");
