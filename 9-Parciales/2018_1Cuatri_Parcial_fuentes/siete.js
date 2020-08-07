@@ -5,10 +5,7 @@ function mostrar() {
     let sexo;
     let sexoNotaBaja;
     let bandera = 0;
-    let notaMax = 0;
-    let bandera2 = 0;
     let contador = 0;
-    let contador2 = 0;
     
 
     for (let i = 0; i < alumnos; i++) {
@@ -39,7 +36,7 @@ function mostrar() {
         }
         
         if(sexo == 'm' && nota>=6){
-            contador2++;
+            contador++;
         }
     }
 
